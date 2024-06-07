@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+@media (min-width:640px) {
+  .gradient_border {
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-image-source: linear-gradient(180deg, rgba(0, 160, 21, 0) 0%, #00A015 52.75%, rgba(0, 160, 21, 0) 100%);
+    border-image-slice: 1;
+  }
+}
+.slick-dots {
+  bottom: -32px !important;
+}
+.slick-dots li button:before {
+  font-size: 12px !important;
+  opacity: .25;
+  color: #00A015 !important;
+
+}
