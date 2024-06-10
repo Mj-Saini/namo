@@ -76,7 +76,7 @@ const ContactUs = () => {
                       onChange={handleOnChange}
                       value={userData.message}
                       required
-                      className=" w-full h-[110px] bg-white rounded-lg p-3"
+                      className=" w-full h-[110px] bg-white rounded-lg p-3 resize-none"
                     ></textarea>
                   </div>
                   <div className="mt-5 lg:mt-[42px] ms-2">

@@ -17,12 +17,18 @@ body {
     border-image-slice: 1;
   }
 }
+
 .slick-dots {
   bottom: -32px !important;
 }
+
 .slick-dots li button:before {
   font-size: 12px !important;
   opacity: .25;
   color: #00A015 !important;
 
+}
+
+::-webkit-scrollbar {
+  display: none !important;
 }

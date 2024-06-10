@@ -12,7 +12,17 @@ const Footer = () => {
         <div className="flex justify-center pb-14 md:pb-20 border-b-2 border-[#00A015]">
           <div className="w-full md:w-9/12 lg:w-6/12">
             <div className="flex flex-col items-center justify-center gap-4">
-              <img src={footerLogo} alt="logo" />
+              <Link
+                onClick={() => {
+                  window.scrollTo({
+                    top: 0,
+                    behavior: "smooth",
+                  });
+                }}
+                to="/"
+              >
+                <img src={footerLogo} alt="logo" />
+              </Link>
               <p className="font-normal text-base text-white text-center">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Vestibulum eu enim nibh. Aliquam tincidunt leo non massa
