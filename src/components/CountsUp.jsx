@@ -15,12 +15,12 @@ const CountsUp = () => {
                       className="font-medium text-3xl md:text-5xl text-[#00A015]"
                       ref={countUpRef}
                     />
-                    <button
+                    <span
                       className="font-medium text-3xl md:text-5xl text-[#00A015]"
                       onClick={start}
                     >
                       %
-                    </button>
+                    </span>
                   </div>
                 </div>
               )}
@@ -38,12 +38,12 @@ const CountsUp = () => {
                       className="font-medium text-3xl md:text-5xl text-[#00A015]"
                       ref={countUpRef}
                     />
-                    <button
+                    <span
                       className="font-medium text-3xl md:text-5xl text-[#00A015]"
                       onClick={start}
                     >
                       k+
-                    </button>
+                    </span>
                   </div>
                   <p className="font-normal text-base text-[#000F02] text-center  mt-2">
                     Reviews
@@ -61,12 +61,12 @@ const CountsUp = () => {
                       className="font-medium text-3xl md:text-5xl text-[#00A015]"
                       ref={countUpRef}
                     />
-                    <button
+                    <span
                       className="font-medium text-3xl md:text-5xl text-[#00A015]"
                       onClick={start}
                     >
                       M+
-                    </button>
+                    </span>
                   </div>
                   <p className="font-normal text-base text-[#000F02] text-center sm:text-end sm:pe-4 mt-2">
                     Downloads
