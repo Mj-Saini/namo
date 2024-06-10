@@ -7,7 +7,13 @@ const CountsUp = () => {
       <div className="shadow-drop_shadow rounded-[24px] bg-white py-6 px-6 md:px-20">
         <div className="flex flex-wrap gap-6 sm:gap-0">
           <div className="w-full sm:w-3/12 ">
-            <CountUp start={0} end={8.9} duration={2.75} decimals={1}>
+            <CountUp
+              start={0}
+              end={8.9}
+              duration={2.75}
+              decimals={1}
+              startOnMount={true}
+            >
               {({ countUpRef, start }) => (
                 <div>
                   <div className="flex justify-center sm:justify-start">
@@ -30,7 +36,7 @@ const CountsUp = () => {
             </p>
           </div>
           <div className="w-full sm:w-6/12 gradient_border">
-            <CountUp start={0} end={100}>
+            <CountUp start={0} end={100} startOnMount={true}>
               {({ countUpRef, start }) => (
                 <div>
                   <div className="flex justify-center">
@@ -53,7 +59,7 @@ const CountsUp = () => {
             </CountUp>
           </div>
           <div className="w-full sm:w-3/12">
-            <CountUp start={0} end={10}>
+            <CountUp start={0} end={10} startOnMount={true}>
               {({ countUpRef, start }) => (
                 <div>
                   <div className="flex justify-center sm:justify-end">
